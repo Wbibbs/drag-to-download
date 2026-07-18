@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Drag to Download Settings</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; max-width: 400px; }
+        input { width: 100%; padding: 8px; margin: 10px 0; box-sizing: border-box; }
+        button { padding: 8px 15px; background: #0060df; color: white; border: none; cursor: pointer; }
+        .hint { font-size: 0.85em; color: #666; margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+    <h2>Download Folder Settings</h2>
+    <p class="hint">Paths must be relative to your default Downloads directory (e.g., <em>MyFolder</em> or <em>Images/Dragged</em>). Leave blank to download straight to default downloads.</p>
+    
+    <label for="folderPath">Folder Path:</label>
+    <input type="text" id="folderPath" placeholder="e.g. DragDownloads">
+    
+    <button id="saveBtn">Save Settings</button>
+
+    <script src="options.js"></script>
+</body>
+</html>
