@@ -1,4 +1,4 @@
-# MoveToDownload
+# Drag to Download
 
 A lightweight Firefox add-on that downloads images automatically when dragging and releasing them
 
